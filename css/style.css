@@ -1,0 +1,67 @@
+/* 
+
+Project Name: Guthrie Consulting 
+Author: Ben Guthrie 
+Project developed for: @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/growth.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: top right;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+#container {
+	background: #2f414d;
+	width: 425px;
+	color: #fcf0e0;
+	padding: 15px;
+	border-radius: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+#aww-wrapper {
+	background: #fbf1e3;
+	border-radius: 15px;
+	height: 150px;
+	width: 420px;
+	color: #2f414d;
+	text-align: center;
+	}
+
+h1 {
+	font-size: 90px;
+	line-height: 0.9;
+	margin-bottom: 35px;
+	margin-top: 15px;
+	}
+
+h2 {
+	background: #b6b9a8;
+	color: #2f414d;
+	font-size: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+	}
+
+p {
+	font-size: 18px;
+	}
+
+
+h3 {
+	padding-top: 4px;
+	font-size: 12px;
+	}
+
+a {
+	color: #b6b9a8;
+	text-decoration: none;
+	}
